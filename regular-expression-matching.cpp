@@ -20,20 +20,19 @@ public:
         if ((i - ls) * (j - lp) <= 0) return false;
         if (p[j] == '*') {
             return false;
-        } else if (p[j] == '.' || p[i] == p[j]) {
+        } else if (p[j] == '.' || s[i] == p[j]) {
             // match
             if (j + 1 < lp && p[j + 1] == '*') {
                 bool f = subMatch(i + 1, j, s, p);
                 if (f) {
                     return true;
                 } else {
-                    std::cout << i << "," << j << std::endl;
                     return subMatch(i, j + 2, s, p);
                 }
             } else {
                 return subMatch(i + 1, j + 1, s, p);
             }
-        } else if (p[i] != p[j]) {
+        } else if (s[i] != p[j]) {
             if (j + 1 < lp && p[j + 1] == '*') {
                 return subMatch(i, j + 2, s, p);
             }
