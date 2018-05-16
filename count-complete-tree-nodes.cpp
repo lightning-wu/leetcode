@@ -18,41 +18,26 @@ using namespace std;
 class Solution {
 public:
     int countNodes(TreeNode* root) {
-        queue<int> qe;
-        if (!root) return 0;
-        root->val = 1;
-        qe.push(root);
-        bool f1 = false;
-        int mval = -1;
-        while (!qe.empty()) {
-            TreeNode* t = qe.front();
-            qe.pop();
-            if (!t->right) {
-                f1 = true;
-                mval = t->val;
-            }
-            if (t->right) {
-                t->right->val = 2 * t->val + 1;
-                if (f1) {
-                    return t->right->val;
-                } else {
-                    qe.push(t->right);
-                }
-            }
-            if (t->left) {
-                t->left->val = 2 * t->val;
-                if (f1) {
-                    return t->left->val;
-                } else {
-                    qe.push(t->left);
-                }
-            }
-        }
-        if (f1) {
-            return mval;
-        }
+        return countNode(root);
+    }
 
-        return 0;
+    int countNode(TreeNode* root) {
+        if (root == NULL) return 0;
+        int llen = 1, rlen = 1;
+        TreeNode* tmp = root;
+        while (tmp->left) {
+            llen++;
+            tmp = tmp->left;
+        }
+        tmp = root;
+        while (tmp->right) {
+            rlen++;
+            tmp = tmp->right;
+        }
+        if (llen == rlen) {
+            return (1 << llen) - 1;
+        }
+        return countNode(root->left) + countNode(root->right) + 1;
     }
 };
 
