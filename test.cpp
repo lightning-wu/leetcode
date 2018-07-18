@@ -1,6 +1,8 @@
 #include <iostream>
 #include <climits>
 #include <vector>
+#include <iterator>
+
 using namespace std;
 
 int max(int a, int b){

@@ -1,5 +1,8 @@
+#include <vector>
 
-int minPathSum(vector<vector<int>>& grid) {
+using namespace std;
+
+int minPathSum(vector<vector<int> >& grid) {
     int row = grid.size();
     if (row == 0) return 0;
     int col = grid[0].size();
@@ -18,7 +21,7 @@ int minPathSum(vector<vector<int>>& grid) {
 
     for (int i = 1; i < row; i++){
         for (int j = 1; j < col; j++){
-            sum[i][j] += grid[i][j];
+            sum[i][j] = grid[i][j];
             sum[i][j] += ((sum[i - 1][j] > sum[i][j - 1]) ? sum[i][j - 1] : sum[i - 1][j]);
         }
     }

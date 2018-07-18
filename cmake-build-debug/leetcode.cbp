@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="leetcode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wuzhibin/dragon/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wuzhibin/dragon/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wuzhibin/dragon/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode">
+				<Option output="/Users/wuzhibin/dragon/leetcode/cmake-build-debug/leetcode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wuzhibin/dragon/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode/fast">
+				<Option output="/Users/wuzhibin/dragon/leetcode/cmake-build-debug/leetcode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wuzhibin/dragon/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wuzhibin/dragon/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/Best_Time_to_Buy_and_Sell_Stock.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/Binary_tree_level_order.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/Find_Largest_Value_in_Each_Tree_Row.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/Longest_Increasing_Subsequence.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/Minimum_Path_Sum.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/Word Search.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/Word_Search.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/add-and-search-word-data-structure-design.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/combination-sum-iii.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/combinations.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/convert_list_to_bst.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/generate_parentheses.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/gray-code.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/implement-trie-prefix-tree.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/longest_substring.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/n_queen.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/permutation.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/permutations-ii.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/subsets-ii.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/subsets.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/test.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/word-search-ii.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/wuzhibin/dragon/leetcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
